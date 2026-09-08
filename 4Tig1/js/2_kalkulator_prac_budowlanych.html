@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Kalkulator remontu</title>
+	<style>
+      * { box-sizing: border-box }
+
+      body {
+		      margin: 0;
+		      font-family: Arial, sans-serif;
+		      background: #f3f4f6;
+		      color: #222;
+      }
+
+      .container {
+		      width: min(760px, 92%);
+		      margin: 40px auto;
+      }
+
+      .card {
+		      background: white;
+		      border-radius: 14px;
+		      padding: 30px;
+		      box-shadow: 0 8px 25px rgba(0, 0, 0, .10);
+      }
+
+      h1, h2 {
+		      margin-top: 0;
+      }
+
+      h1 {
+		      text-align: center;
+      }
+
+      .menu {
+		      display: grid;
+		      grid-template-columns: 1fr 1fr;
+		      gap: 18px;
+		      margin-top: 30px;
+      }
+
+      button {
+		      border: 0;
+		      border-radius: 10px;
+		      padding: 14px 18px;
+		      font-size: 16px;
+		      cursor: pointer;
+		      background: #2563eb;
+		      color: white;
+      }
+
+      button:hover {
+		      opacity: .9;
+      }
+
+      .secondary {
+		      background: #6b7280;
+      }
+
+      .back {
+		      margin-bottom: 20px;
+      }
+
+      .hidden {
+		      display: none;
+      }
+
+      label {
+		      display: block;
+		      margin-top: 15px;
+		      font-weight: bold;
+      }
+
+      input[type="number"] {
+		      width: 100%;
+		      padding: 11px;
+		      margin-top: 6px;
+		      border: 1px solid #ccc;
+		      border-radius: 8px;
+		      font-size: 16px;
+      }
+
+      .checkbox {
+		      display: flex;
+		      align-items: center;
+		      gap: 10px;
+		      margin-top: 18px;
+		      font-weight: bold;
+      }
+
+      .checkbox input {
+		      width: 18px;
+		      height: 18px;
+      }
+
+      .result {
+		      margin-top: 25px;
+		      padding: 18px;
+		      border-radius: 10px;
+		      background: #eef6ff;
+		      border-left: 5px solid #2563eb;
+		      line-height: 1.7;
+      }
+
+      .result strong {
+		      font-size: 18px;
+      }
+
+      .hint {
+		      color: #666;
+		      font-size: 14px;
+		      margin-top: 5px;
+      }
+
+      .price {
+		      font-size: 24px;
+		      font-weight: bold;
+      }
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!--	strona główna	-->
+		<section id="home" class="card">
+			<h1>Kalkulator remontu</h1>
+			<p style="text-align: center">
+				Wybierz rodzaj prac, które chcesz wykonać:
+			</p>
+			<div class="menu">
+				<button onclick="showPage('tiles')">Płytki</button>
+				<button onclick="showPage('paint')">Malowanie</button>
+			</div>
+		</section>
+
+		<!--	Płytki	-->
+		<section id="tiles" class="card hidden">
+			<button class="secondary back" onclick="showPage('home')">« Powrót</button>
+			<h2>Kalkulator płytek</h2>
+
+			<label for="floorArea">Powierzchnia podłogi [m²]</label>
+			<input type="number" id="floorArea" min="0" step="0.01" placeholder="np. 20">
+
+			<label for="tileLength">Długość płytki [cm]</label>
+			<input type="number" id="tileLength" min="0" step="0.1" placeholder="np. 60">
+
+			<label for="tileWidth">Szerokość podłogi [m²]</label>
+			<input type="number" id="tileWidth" min="0" step="0.01" placeholder="np. 60">
+
+			<label for="waste">Zapas płytek [%]</label>
+			<input type="number" id="waste" min="0" step="1" placeholder="np. 10">
+			<div class="hint">Domyślnie przyjęto 10% zapasu</div>
+
+			<div class="checkbox">
+				<input type="checkbox" id="walls" onchange="toggleWalls()">
+				<label for="walls" style="margin:0;">Płytki również na ścianach</label>
+			</div>
+
+			<div id="wallFields" class="hidden">
+				<label for="perimeter">Obwód pomieszczenia [m]</label>
+				<input type="number" id="perimeter" min="0" step="0.01" placeholder="np. 18">
+
+				<label for="wallHeight">Wysokość układania płytek na ścianie [m]</label>
+				<input type="number" id="wallHeight" min="0" step="0.01" placeholder="np. 2.55">
+			</div>
+
+			<br>
+			<button onclick="calculateTiles()">Oblicz koszt położenia płytek</button>
+
+			<div id="tileResult" class="result hidden"></div>
+		</section>
+
+		<!--	Malowanie	-->
+		<section id="paint" class="card hidden">
+
+		</section>
+		<!--	dokończyć	-->
+	</div>
+	<script>
+	<!--	ceny za 1 m²	-->
+	const TILE_LAYING_PRICE = 100;
+  const PAINTING_PRICE = 15;
+
+  function showPage(page){
+		document.getElementById("home").classList.add("hidden");
+		document.getElementById("tiles").classList.add("hidden");
+		document.getElementById("paint").classList.add("hidden");
+		//
+		document.getElementById(page).classList.remove("hidden");
+  }
+
+	</script>
+</body>
+</html>
