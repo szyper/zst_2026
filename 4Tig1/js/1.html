@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularz</title>
+</head>
+<body>
+  <h1>Podaj swoje dane</h1>
+  <form id="form">
+	  <label for="firstName">Imię:</label>
+	  <input type="text" id="firstName" required><br><br>
+
+	  <label for="lastName">Nazwisko:</label>
+	  <input type="text" id="lastName" required><br><br>
+
+	  <button type="submit">Wyślij</button>
+  </form>
+
+	<h2 id="result"></h2>
+
+  <p id="firstNameLength"></p>
+  <p id="lastNameLength"></p>
+	<p id="date"></p>
+  <p id="time"></p>
+  <p id="day"></p>
+  <hr>
+
+  <p id="exactDate"></p>
+
+
+	<script>
+		const form = document.getElementById("form");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        // console.log("test");
+        // console.log(e)
+
+        let firstName = document.getElementById("firstName").value.trim();
+        const lastName = document.getElementById("lastName").value;
+
+        firstName = firstName.charAt(0).toUpperCase() + firstName.slice(1).toLowerCase();
+
+        document.getElementById("result").textContent = "Witaj, " + firstName + " " + lastName + "!";
+
+        document.getElementById("firstNameLength").textContent = "Liczba znaków imienia: " + firstName.length;
+
+        document.getElementById("lastNameLength").textContent = "Liczba znaków nazwiska: " + lastName.length;
+
+        const currentDate = new Date();
+
+        document.getElementById("date").textContent = "Data wysłania: " + currentDate.toLocaleDateString("pl-PL");
+
+        document.getElementById("time").textContent = "Czas wysłania: " + currentDate.toLocaleTimeString("pl-PL");
+
+        const day = currentDate.toLocaleDateString("pl-PL", { weekday: "long"}); // short, narrow
+          // console.log(day);
+
+		    document.getElementById("day").textContent = "Dzień tygodnia: " + day;
+
+        const exactDate = currentDate.toLocaleDateString("pl-PL",
+            {
+                weekday: "long",
+                day: "numeric",
+		            month: "long",
+		            year: "numeric"
+            });
+
+        const time = currentDate.toLocaleTimeString("pl-PL");
+
+        document.getElementById("exactDate").textContent = "Dokładna data: " + exactDate;
+
+    });
+	</script>
+</body>
+</html>
