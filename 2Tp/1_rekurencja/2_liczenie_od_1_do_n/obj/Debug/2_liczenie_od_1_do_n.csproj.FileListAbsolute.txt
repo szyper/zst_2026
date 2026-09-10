@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\2_liczenie_od_1_do_n\bin\Debug\2_liczenie_od_1_do_n.exe.config
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\2_liczenie_od_1_do_n\bin\Debug\2_liczenie_od_1_do_n.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\2_liczenie_od_1_do_n\bin\Debug\2_liczenie_od_1_do_n.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\2_liczenie_od_1_do_n\obj\Debug\2_liczenie_od_1_do_n.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\2_liczenie_od_1_do_n\obj\Debug\2_liczenie_od_1_do_n.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\2_liczenie_od_1_do_n\obj\Debug\2_liczenie_od_1_do_n.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\2_liczenie_od_1_do_n\obj\Debug\2_liczenie_od_1_do_n.pdb

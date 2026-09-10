@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\1_odliczanie_do_zera\bin\Debug\1_odliczanie_do_zera.exe.config
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\1_odliczanie_do_zera\bin\Debug\1_odliczanie_do_zera.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\1_odliczanie_do_zera\bin\Debug\1_odliczanie_do_zera.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\1_odliczanie_do_zera\obj\Debug\1_odliczanie_do_zera.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\1_odliczanie_do_zera\obj\Debug\1_odliczanie_do_zera.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\1_odliczanie_do_zera\obj\Debug\1_odliczanie_do_zera.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\1_odliczanie_do_zera\obj\Debug\1_odliczanie_do_zera.pdb

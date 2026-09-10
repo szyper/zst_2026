@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\3_w_dol_i_w_gore\bin\Debug\3_w_dol_i_w_gore.exe.config
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\3_w_dol_i_w_gore\bin\Debug\3_w_dol_i_w_gore.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\3_w_dol_i_w_gore\bin\Debug\3_w_dol_i_w_gore.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\3_w_dol_i_w_gore\obj\Debug\3_w_dol_i_w_gore.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\3_w_dol_i_w_gore\obj\Debug\3_w_dol_i_w_gore.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\3_w_dol_i_w_gore\obj\Debug\3_w_dol_i_w_gore.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\3_w_dol_i_w_gore\obj\Debug\3_w_dol_i_w_gore.pdb

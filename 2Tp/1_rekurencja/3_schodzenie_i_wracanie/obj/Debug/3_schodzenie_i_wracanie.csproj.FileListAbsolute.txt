@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\3_schodzenie_i_wracanie\bin\Debug\3_schodzenie_i_wracanie.exe.config
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\3_schodzenie_i_wracanie\bin\Debug\3_schodzenie_i_wracanie.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\3_schodzenie_i_wracanie\bin\Debug\3_schodzenie_i_wracanie.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\3_schodzenie_i_wracanie\obj\Debug\3_schodzenie_i_wracanie.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\3_schodzenie_i_wracanie\obj\Debug\3_schodzenie_i_wracanie.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\3_schodzenie_i_wracanie\obj\Debug\3_schodzenie_i_wracanie.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\1_rekurencja\3_schodzenie_i_wracanie\obj\Debug\3_schodzenie_i_wracanie.pdb
