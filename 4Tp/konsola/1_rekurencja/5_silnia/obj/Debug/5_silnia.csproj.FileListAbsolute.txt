@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\5_silnia\bin\Debug\5_silnia.exe.config
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\5_silnia\bin\Debug\5_silnia.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\5_silnia\bin\Debug\5_silnia.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\5_silnia\obj\Debug\5_silnia.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\5_silnia\obj\Debug\5_silnia.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\5_silnia\obj\Debug\5_silnia.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\5_silnia\obj\Debug\5_silnia.pdb

@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\6_potegowanie\bin\Debug\6_potegowanie.exe.config
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\6_potegowanie\bin\Debug\6_potegowanie.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\6_potegowanie\bin\Debug\6_potegowanie.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\6_potegowanie\obj\Debug\6_potegowanie.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\6_potegowanie\obj\Debug\6_potegowanie.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\6_potegowanie\obj\Debug\6_potegowanie.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\6_potegowanie\obj\Debug\6_potegowanie.pdb
