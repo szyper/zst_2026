@@ -1,0 +1,14 @@
+HTML
+|
+|---HEAD
+|   |___charset
+|   |___viewport
+|   |___title
+|
+|---BODY
+    |___zawartość strony
+
+
+
+
+

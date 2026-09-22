@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\10_NWD\bin\Debug\10_NWD.exe.config
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\10_NWD\bin\Debug\10_NWD.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\10_NWD\bin\Debug\10_NWD.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\10_NWD\obj\Debug\10_NWD.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\10_NWD\obj\Debug\10_NWD.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\10_NWD\obj\Debug\10_NWD.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\10_NWD\obj\Debug\10_NWD.pdb

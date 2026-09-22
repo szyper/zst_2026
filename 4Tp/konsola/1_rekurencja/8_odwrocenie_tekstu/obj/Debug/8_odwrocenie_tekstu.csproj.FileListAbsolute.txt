@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\8_odwrocenie_tekstu\bin\Debug\8_odwrocenie_tekstu.exe.config
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\8_odwrocenie_tekstu\bin\Debug\8_odwrocenie_tekstu.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\8_odwrocenie_tekstu\bin\Debug\8_odwrocenie_tekstu.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\8_odwrocenie_tekstu\obj\Debug\8_odwrocenie_tekstu.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\8_odwrocenie_tekstu\obj\Debug\8_odwrocenie_tekstu.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\8_odwrocenie_tekstu\obj\Debug\8_odwrocenie_tekstu.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\1_rekurencja\8_odwrocenie_tekstu\obj\Debug\8_odwrocenie_tekstu.pdb
