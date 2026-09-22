@@ -12,117 +12,120 @@
 				FORMULARZ
 	==================================== -->
 
-		<h1>📝 Formularz zgłoszeniowy</h1>
-		<form id="registrationForm">
-			<!--	=============
-						IMIĘ
-			================-->
-				<label for="name">
-					Imię
-				</label>
-
-				<input type="text" name="name" id="name" placeholder="np. Jan">
-
-				<div id="nameError" class="error"></div>
-
-
+		<div id="formCard" class="card">
+			<h1>📝 Formularz zgłoszeniowy</h1>
+			<form id="registrationForm">
 				<!--	=============
-						NAZWISKO
-			================-->
-				<label for="surname">
-					Nazwisko
-				</label>
-
-				<input type="text" name="surname" id="surname" placeholder="np. Kowalski">
-
-				<div id="surnameError" class="error"></div>
-
-
-				<!--	=============
-						E-MAIL
-			================-->
-				<label for="email">
-					Adres e-mail
-				</label>
-
-				<input type="text" name="email" id="email" placeholder="np. jan@o2.pl">
-
-				<div id="emailError" class="error"></div>
-
-
-				<!--	=============
-						WIEK
-			================-->
-				<label for="age">
-					Wiek
-				</label>
-
-				<input type="number" name="age" id="age" min="1" max="140" placeholder="np. 18">
-
-				<div id="ageError" class="error"></div>
-
-
-				<!--	=============
-						POZIOM PROGRAMOWANIA
-			================-->
-				<label for="level">
-					Poziom znajomości programowania
-				</label>
-
-				<select id="level">
-					<option value="">--</option>
-					<option value="">Początkujący</option>
-					<option value="">Średniozaawansowany</option>
-					<option value="">Zaawansowany</option>
-				</select>
-
-				<div id="levelError" class="error"></div>
-
-
-				<!--	=============
-						JĘZYK PROGRAMOWANIA
-			================-->
-				<label>
-					Wybierz język programowania
-				</label>
-
-				<div class="radio-group">
-					<label>
-						<input type="radio" name="language" value="C#">
-						C#
+							IMIĘ
+				================-->
+					<label for="name">
+						Imię
 					</label>
 
-					<label>
-						<input type="radio" name="language" value="PHP">
-						PHP
+					<input type="text" name="name" id="name" placeholder="np. Jan">
+
+					<div id="nameError" class="error"></div>
+
+
+					<!--	=============
+							NAZWISKO
+				================-->
+					<label for="surname">
+						Nazwisko
 					</label>
 
-					<label>
-						<input type="radio" name="language" value="JavaScript">
-						JavaScript
+					<input type="text" name="surname" id="surname" placeholder="np. Kowalski">
+
+					<div id="surnameError" class="error"></div>
+
+
+					<!--	=============
+							E-MAIL
+				================-->
+					<label for="email">
+						Adres e-mail
 					</label>
-				</div>
 
-				<div id="languageError" class="error"></div>
+					<input type="text" name="email" id="email" placeholder="np. jan@o2.pl">
 
-
-
-			<!--	=============
-						ZGODA
-			================-->
-			<label class="checkbox">
-				<input type="checkbox" id="agreement">
-				Zgadzam się na przetwarzanie danych
-			</label>
-
-			<div id="agreementError" class="error"></div>
+					<div id="emailError" class="error"></div>
 
 
-			<!--	=============
-						PRZYCISK
-			================-->
-			<button type="submit">Wyślij formularz</button>
-		</form>
+					<!--	=============
+							WIEK
+				================-->
+					<label for="age">
+						Wiek
+					</label>
+
+					<input type="number" name="age" id="age" min="1" max="140" placeholder="np. 18">
+
+					<div id="ageError" class="error"></div>
+
+
+					<!--	=============
+							POZIOM PROGRAMOWANIA
+				================-->
+					<label for="level">
+						Poziom znajomości programowania
+					</label>
+
+					<select id="level">
+						<option value="">--</option>
+						<option value="">Początkujący</option>
+						<option value="">Średniozaawansowany</option>
+						<option value="">Zaawansowany</option>
+					</select>
+
+					<div id="levelError" class="error"></div>
+
+
+					<!--	=============
+							JĘZYK PROGRAMOWANIA
+				================-->
+					<label>
+						Wybierz język programowania
+					</label>
+
+					<div class="radio-group">
+						<label>
+							<input type="radio" name="language" value="C#">
+							C#
+						</label>
+
+						<label>
+							<input type="radio" name="language" value="PHP">
+							PHP
+						</label>
+
+						<label>
+							<input type="radio" name="language" value="JavaScript">
+							JavaScript
+						</label>
+					</div>
+
+					<div id="languageError" class="error"></div>
+
+
+
+				<!--	=============
+							ZGODA
+				================-->
+				<label class="checkbox">
+					<input type="checkbox" id="agreement">
+					Zgadzam się na przetwarzanie danych
+				</label>
+
+				<div id="agreementError" class="error"></div>
+
+
+				<!--	=============
+							PRZYCISK
+				================-->
+				<button type="submit">Wyślij formularz</button>
+			</form>
+		</div>
+		
 
 		<!--	==================================
 					PODSUMOWANIE

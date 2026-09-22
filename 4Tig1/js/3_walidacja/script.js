@@ -74,5 +74,58 @@ form.addEventListener("submit", function(event){
     // zatrzymuję standardowe wysyłanie formularza
     event.preventDefault();
 
-    
+    // sprawdzamy wszystkie pola
+    const valid = validateForm();
+
+    // ====================
+    // JEŻELI SĄ BŁĘDY
+    // ====================
+
+    if (!valid) {
+        // nie kasujemy danych z formularza
+        return;
+    }
+
+    // ==============================================
+    // JEŻELI WSZYSTKIE WPROWADZONE DANE SĄ POPRAWNE
+    // ==============================================
+
+    const name = document.getElementById("name").value.trim();
+
+    // wyświetlamy podsumowanie
+    showResult(name);
 });
+
+
+// ==============================================
+// WYŚWIETLAMY PODSUMOWANIE
+// ==============================================
+
+function showResult(name) {
+    // ukrywamy formularz
+    document.getElementById("formCard").classList.add("hidden");
+
+    // pokazujemy podsumowanie
+    document.getElementById("resultCard").classList.remove("hidden");
+
+    // wyświetlamy dane
+    document.getElementById("result").innerHTML = `
+        <strong>Dane uczestnika:</strong><br><br>
+        
+        Imię i nazwisko: 
+        <b>${name}</b><br>
+    `;
+}
+
+
+// ==============================================
+// POPRAWIANIE DANYCH
+// ==============================================
+
+function editData() {
+    // ukrywamy podsumowanie
+    document.getElementById("resultCard").classList.add("hidden");
+
+    // pokazujemy formularz
+    document.getElementById("formCard").classList.remove("hidden");
+}
