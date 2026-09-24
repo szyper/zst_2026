@@ -1,0 +1,13 @@
+Utwórz stronę internetową przedstawiającą Twoją szkołę lub klasę.
+
+Wykonaj następujące polecenia:
+
+Dodaj nagłówek główny <h1> z nazwą szkoły.
+Dodaj nagłówek <h2> „O szkole”.
+Pod nagłówkiem <h2> umieść akapit <p> zawierający kilka zdań o szkole.
+Dodaj kolejny nagłówek <h2> „Kierunek technik informatyk”.
+Dodaj pod nim akapit <p> opisujący, czego uczniowie uczą się na kierunku technik informatyk.
+Dodaj nagłówek <h3> „Przedmioty zawodowe”.
+Dodaj pod nim akapit <p> wymieniający kilka przedmiotów zawodowych.
+Dodaj kolejny nagłówek <h2> „Moje zainteresowania”.
+Dodaj pod nim akapit <p> opisujący Twoje zainteresowania związane z informatyką.
