@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\7_1_sortowanie_babelkowe\bin\Debug\7_1_sortowanie_babelkowe.exe.config
+C:\xampp\htdocs\git\zst_2026\2Tp\7_1_sortowanie_babelkowe\bin\Debug\7_1_sortowanie_babelkowe.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\7_1_sortowanie_babelkowe\bin\Debug\7_1_sortowanie_babelkowe.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\7_1_sortowanie_babelkowe\obj\Debug\7_1_sortowanie_babelkowe.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\7_1_sortowanie_babelkowe\obj\Debug\7_1_sortowanie_babelkowe.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\7_1_sortowanie_babelkowe\obj\Debug\7_1_sortowanie_babelkowe.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\7_1_sortowanie_babelkowe\obj\Debug\7_1_sortowanie_babelkowe.pdb
