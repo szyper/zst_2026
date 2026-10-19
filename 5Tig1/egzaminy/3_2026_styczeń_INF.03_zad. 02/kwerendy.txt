@@ -1,0 +1,7 @@
+kwerenda 1: SELECT towar.nazwa, towar.plik FROM towar LIMIT 10;
+
+kwerenda 2: SELECT towar.id, towar.nazwa FROM towar;
+
+kwerenda 3: SELECT towar.rodzaj, towar.nazwa, towar.cena FROM towar WHERE towar.id = 1;
+
+kwerenda 4: INSERT INTO `zamowienie` (`id`, `id_towar`, `id_sklep`, `liczba_kg`) VALUES (NULL, '9', '2', '20');
