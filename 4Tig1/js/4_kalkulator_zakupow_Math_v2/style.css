@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f4f8;
+    margin: 0;
+    padding: 30px;
+    color: #263238;
+}
+
+h1 {
+    text-align: center;
+    color: #234a70;
+}
+
+#shoppingForm {
+    max-width: 400px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#shoppingForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#shoppingForm input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b8c7d6;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#shoppingForm input:focus {
+    outline: none;
+    border-color: #2878b5;
+    box-shadow: 0 0 4px rgba(40, 120, 181, 0.4);
+}
+
+#shoppingForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2878b5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#shoppingForm button:hover {
+    background-color: #1b527e;
+}
+
+#result {
+    box-sizing: border-box;
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #2878b5;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#result h2 {
+    margin-top: 0;
+    color: #234a70;
+}
+
+#result p {
+    padding: 8px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #e5eaf0;
+    line-height: 1.5;
+}
+
+#result p:last-child {
+    border-bottom: none;
+}
