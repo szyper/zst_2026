@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\8_algorytm_Euklidesa\bin\Debug\8_algorytm_Euklidesa.exe.config
+C:\xampp\htdocs\git\zst_2026\2Tp\8_algorytm_Euklidesa\bin\Debug\8_algorytm_Euklidesa.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\8_algorytm_Euklidesa\bin\Debug\8_algorytm_Euklidesa.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\8_algorytm_Euklidesa\obj\Debug\8_algorytm_Euklidesa.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\8_algorytm_Euklidesa\obj\Debug\8_algorytm_Euklidesa.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\8_algorytm_Euklidesa\obj\Debug\8_algorytm_Euklidesa.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\8_algorytm_Euklidesa\obj\Debug\8_algorytm_Euklidesa.pdb

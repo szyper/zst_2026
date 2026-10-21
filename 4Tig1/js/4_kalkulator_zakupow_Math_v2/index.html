@@ -19,6 +19,13 @@
         <label for="discount">Rabat (%):</label>
         <input type="number" id="discount" min="0" max="100" value="0" required><br><br>
 
+        <label for="delivery">Sposób dostawy:</label>
+        <select id="delivery">
+            <option value="0">Odbiór osobisty - 0 zł</option>
+            <option value="9.99">Paczkomat - 9,99 zł</option>
+            <option value="14.99">Kurier - 14,99 zł</option>
+        </select>
+
         <button type="submit">Oblicz koszt zakupów</button>
     </form>
 
@@ -35,6 +42,7 @@
             let priceText = document.getElementById("price").value;
             let quantityText = document.getElementById("quantity").value;
             let discountText = document.getElementById("discount").value;
+            let delivery = Number(document.getElementById("delivery").value);
 
             // alert(priceText + quantityText);
 
@@ -54,11 +62,29 @@
             // obliczenia
             let total = price * quantity;
             let discountAmount = total * discount / 100; // kwota rabatu
-            let finalPrice = total - discountAmount;
-            
+            let priceAfterDiscount = total - discountAmount;
+
+            // próg darmowej dostawy
+            let freeDeliveryLimit = 200;
+
+            // sprawdzenie, czy osiągnięto próg darmowej dostawy
+            let freeDelivery = priceAfterDiscount >= freeDeliveryLimit;
+
+            // ustalenie kosztu dostawy i komunikatu
+            let deliveryInfo;
+
+            if (freeDelivery) {
+                delivery = 0;
+                deliveryInfo = "Darmowa dostawa - osiągnięto próg 200zł";
+            } else {
+                deliveryInfo = `Do darmowej dostawy brakuje ${(freeDeliveryLimit - priceAfterDiscount).toFixed(2)}zł`;
+            }
+
+            let finalPrice = priceAfterDiscount + delivery;
+
             // zaokrąglenia
-            // 59.876 Math.round(finalPrice) => 60
-            //finalPrice.toFixed(2) => wynik jest tekstem (string)
+            // 59.876 Math.round(priceAfterDiscount) => 60
+            //priceAfterDiscount.toFixed(2) => wynik jest tekstem (string)
 
             finalPrice = Math.round(finalPrice * 100) / 100;
             let roundedUp = Math.ceil(finalPrice);
@@ -69,10 +95,14 @@
                 <h2>Podsumowanie zakupów</h2>
                 <p>Koszt przed rabatem: ${total.toFixed(2)} zł</p>
                 <p>Kwota rabatu: ${discountAmount.toFixed(2)} zł</p>
+                <p>Kwota po rabacie: ${priceAfterDiscount.toFixed(2)} zł</p>
+                <p>Dostawa: <strong>${delivery} zł</strong></p>
                 <p>Do zapłaty: ${finalPrice.toFixed(2)} zł</p>
                 <p>Zaokrąglenie w górę: ${roundedUp} zł</p>
                 <p>Zaokrąglenie w dół: ${roundedDown} zł</p>
-
+                <p class="${freeDelivery ? "free-delivery" : "paid-delivery"}"$>
+                    ${deliveryInfo}
+                </p>
             `;
 
         });
