@@ -1,7 +1,7 @@
 // =================================
 // WALIDACJA IMIENIA
 // =================================
-
+ 
 function validateName() {
     // pobieramy pole imienia
     const field = document.getElementById("name");
@@ -62,6 +62,7 @@ function validateForm() {
 
 // Imię
 document.getElementById("name").addEventListener("blur", validateName);
+
 
 
 // ===================================

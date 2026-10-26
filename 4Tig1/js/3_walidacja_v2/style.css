@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #222;
+}
+
+.container {
+    width: min(700px, 92%);
+    margin: 40px auto;
+}
+
+.card {
+    background: white;
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .10);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-success {
+    border: 2px solid green;
+}
+
+.input-error {
+    border: 2px solid red;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    min-height: 18px;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+    min-height: 18px;
+}
+
+.radio-group {
+    margin-top: 10px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    margin-top: 8px;
+}
+
+.radio-group input {
+    width: auto;
+    margin-right: 8px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: normal;
+}
+
+.checkbox input {
+    width: 18px;
+    height: 18px;
+}
+
+button {
+    margin-top: 25px;
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #eef6ff;
+    border-left: 5px solid #2563eb;
+    line-height: 1.8;
+}
+
+.hidden {
+    display: none;
+}

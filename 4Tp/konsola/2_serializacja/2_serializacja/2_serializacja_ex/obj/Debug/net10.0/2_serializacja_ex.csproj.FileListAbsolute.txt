@@ -1,0 +1,16 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\bin\Debug\net10.0\2_serializacja_ex.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\bin\Debug\net10.0\2_serializacja_ex.deps.json
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\bin\Debug\net10.0\2_serializacja_ex.runtimeconfig.json
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\bin\Debug\net10.0\2_serializacja_ex.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\bin\Debug\net10.0\2_serializacja_ex.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.AssemblyInfoInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.AssemblyInfo.cs
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.sourcelink.json
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\refint\2_serializacja_ex.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serializacja_ex.genruntimeconfig.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\ref\2_serializacja_ex.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja_ex\obj\Debug\net10.0\2_serial.97F619E4.Up2Date

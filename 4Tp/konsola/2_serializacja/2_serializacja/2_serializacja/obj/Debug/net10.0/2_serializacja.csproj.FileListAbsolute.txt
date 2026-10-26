@@ -1,0 +1,16 @@
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\bin\Debug\net10.0\2_serializacja.exe
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\bin\Debug\net10.0\2_serializacja.deps.json
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\bin\Debug\net10.0\2_serializacja.runtimeconfig.json
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\bin\Debug\net10.0\2_serializacja.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\bin\Debug\net10.0\2_serializacja.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.AssemblyInfoInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.AssemblyInfo.cs
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.sourcelink.json
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\refint\2_serializacja.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.pdb
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serializacja.genruntimeconfig.cache
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\ref\2_serializacja.dll
+C:\xampp\htdocs\git\zst_2026\4Tp\konsola\2_serializacja\2_serializacja\2_serializacja\obj\Debug\net10.0\2_serial.62865DBD.Up2Date
