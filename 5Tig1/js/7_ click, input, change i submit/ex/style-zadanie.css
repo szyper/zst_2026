@@ -1,0 +1,110 @@
+:root {
+    font-family: Arial, sans-serif;
+    color: #182538;
+    background: #f2f6fb;
+}
+
+body {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+main {
+    background: white;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 8px 28px #15294318;
+}
+
+h1 {
+    color: #174ea6;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    border: 0;
+    border-radius: 7px;
+    padding: 11px 16px;
+    color: white;
+    background: #1769aa;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #104d80;
+}
+
+#message {
+    padding: 14px;
+    border-left: 5px solid #1769aa;
+    background: #eaf3fc;
+}
+
+.highlight {
+    color: #8b2d00;
+    background: #fff0c2 !important;
+    border-left-color: #e18a00 !important;
+}
+
+code {
+    background: #eef1f5;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.note {
+    color: #43536a;
+}
+
+/* Dodatki do formularza i bloków kodu */
+section {
+    margin-top: 28px;
+}
+
+label {
+    display: block;
+    margin: 14px 0 6px;
+    font-weight: 700;
+}
+
+input, select {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 480px;
+    padding: 10px 12px;
+    border: 1px solid #b8c5d6;
+    border-radius: 7px;
+    font: inherit;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 18px;
+    border-radius: 9px;
+    background: #172334;
+    color: #f3f7fb;
+    line-height: 1.5;
+}
+
+pre code {
+    padding: 0;
+    color: inherit;
+    background: transparent;
+}
+
+.demo {
+    padding: 18px;
+    border: 1px solid #d8e2ef;
+    border-radius: 10px;
+    background: #fbfdff;
+}
+

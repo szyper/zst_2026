@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zadanie JavaScript: zdarzenia</title>
+  <link rel="stylesheet" href="style-zadanie.css">
+</head>
+<body>
+<main>
+  <h1>Zadanie JavaScript: zdarzenia</h1>
+  <p class="note"><strong>Temat:</strong> <code>click</code>, <code>input</code>, <code>change</code>, <code>submit</code></p>
+
+  <section>
+    <h2>Treść zadania</h2>
+    <ul>
+      <li>Dodaj obsługę zdarzenia <code>click</code>, która zmienia wygląd komunikatu po kliknięciu przycisku.</li>
+      <li>Użyj zdarzenia <code>input</code>, aby na bieżąco wyświetlać tekst wpisywany w pole oraz liczbę znaków.</li>
+      <li>Obsłuż <code>change</code> na liście wyboru i pokaż wybraną opcję po zmianie wartości.</li>
+      <li>Obsłuż <code>submit</code> formularza: zatrzymaj domyślne odświeżenie strony metodą <code>preventDefault()</code> i wyświetl powitanie.</li>
+      <li>Przetestuj wszystkie cztery zdarzenia i opisz, kiedy każde z nich się uruchamia.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Przykład działania</h2>
+    <div class="demo">
+      <p id="message">Kliknij przycisk, aby wyróżnić ten komunikat.</p>
+      <div class="actions">
+        <button id="highlightButton" type="button">Zmień wyróżnienie</button>
+      </div>
+
+      <label for="nameInput">Wpisz tekst (zdarzenie input)</label>
+      <input id="nameInput" type="text" placeholder="Np. JavaScript">
+      <p id="livePreview" class="note">Podgląd: <span id="typedText">—</span> (<span id="charCount">0</span> znaków)</p>
+
+      <label for="topicSelect">Wybierz temat (zdarzenie change)</label>
+      <select id="topicSelect">
+        <option value="">-- wybierz --</option>
+        <option value="click">click</option>
+        <option value="input">input</option>
+        <option value="change">change</option>
+        <option value="submit">submit</option>
+      </select>
+      <p id="selectionMessage" class="note">Nie wybrano jeszcze tematu.</p>
+
+      <form id="greetingForm">
+        <label for="formName">Twoje imię (zdarzenie submit)</label>
+        <input id="formName" type="text" required placeholder="Np. Ola">
+        <div class="actions">
+          <button type="submit">Wyślij formularz</button>
+        </div>
+      </form>
+      <p id="formMessage" class="note" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kod HTML</h2>
+    <pre><code>&lt;p id="message"&gt;Kliknij, aby wyróżnić komunikat.&lt;/p&gt;
+&lt;button id="highlightButton" type="button"&gt;Wyróżnij&lt;/button&gt;
+
+&lt;label for="nameInput"&gt;Wpisz tekst&lt;/label&gt;
+&lt;input id="nameInput" type="text"&gt;
+&lt;p&gt;Wpisano: &lt;span id="typedText"&gt;—&lt;/span&gt;&lt;/p&gt;
+
+&lt;label for="topicSelect"&gt;Wybierz temat&lt;/label&gt;
+&lt;select id="topicSelect"&gt;
+  &lt;option value=""&gt;-- wybierz --&lt;/option&gt;
+  &lt;option value="click"&gt;click&lt;/option&gt;
+  &lt;option value="input"&gt;input&lt;/option&gt;
+&lt;/select&gt;
+
+&lt;form id="greetingForm"&gt;
+  &lt;input id="formName" type="text" required&gt;
+  &lt;button type="submit"&gt;Wyślij&lt;/button&gt;
+&lt;/form&gt;
+&lt;p id="formMessage"&gt;&lt;/p&gt;</code></pre>
+  </section>
+
+  <section>
+    <h2>Kod JavaScript</h2>
+    <pre><code>const message = document.querySelector("#message");
+const nameInput = document.querySelector("#nameInput");
+const topicSelect = document.querySelector("#topicSelect");
+const greetingForm = document.querySelector("#greetingForm");
+
+// click: reaguje na kliknięcie przycisku
+document.querySelector("#highlightButton").addEventListener("click", () =&gt; {
+  message.classList.toggle("highlight");
+});
+
+// input: reaguje na każdą zmianę tekstu podczas pisania
+nameInput.addEventListener("input", (event) =&gt; {
+  const text = event.target.value;
+  document.querySelector("#typedText").textContent = text || "—";
+  document.querySelector("#charCount").textContent = text.length;
+});
+
+// change: reaguje, gdy wartość pola zostanie zmieniona
+topicSelect.addEventListener("change", (event) =&gt; {
+  const selected = event.target.value;
+  document.querySelector("#selectionMessage").textContent =
+    selected ? `Wybrany temat: ${selected}` : "Nie wybrano jeszcze tematu.";
+});
+
+// submit: reaguje na wysłanie formularza
+greetingForm.addEventListener("submit", (event) =&gt; {
+  event.preventDefault();
+  const name = document.querySelector("#formName").value.trim();
+  document.querySelector("#formMessage").textContent =
+    `Cześć, ${name}! Formularz został obsłużony.`;
+});</code></pre>
+  </section>
+
+  <section>
+    <h2>CSS</h2>
+    <p class="note">Właściwości projektu wykorzystane w przykładzie:</p>
+    <pre><code>:root {
+    font-family: Arial, sans-serif;
+    color: #182538;
+    background: #f2f6fb;
+}
+
+body {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+main {
+    background: white;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 8px 28px #15294318;
+}
+
+h1 { color: #174ea6; }
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+button {
+    border: 0;
+    border-radius: 7px;
+    padding: 11px 16px;
+    color: white;
+    background: #1769aa;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover { background: #104d80; }
+
+#message {
+    padding: 14px;
+    border-left: 5px solid #1769aa;
+    background: #eaf3fc;
+}
+
+.highlight {
+    color: #8b2d00;
+    background: #fff0c2 !important;
+    border-left-color: #e18a00 !important;
+}
+
+code {
+    background: #eef1f5;
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
+.note { color: #43536a; }</code></pre>
+  </section>
+</main>
+
+<script>
+
+</script>
+</body>
+</html>
+
