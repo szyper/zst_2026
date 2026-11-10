@@ -51,7 +51,8 @@
         const createButton = document.getElementById("createButton");
         const modifyButton = document.getElementById("modifyButton");
         const removeButton = document.getElementById("removeButton");
-        
+        const itemCountInput = document.getElementById("itemCount");
+        const createMultipleButton = document.getElementById("createMultipleButton");
 
         let itemNumber = 1;
 
@@ -63,6 +64,24 @@
 
             itemList.appendChild(newItem);
             statusMessage.textContent = "Dodano nowy element do listy";
+        }
+
+        function createMultipleItems() {
+            const requestedCount = Number(itemCountInput.value);
+
+            if (!Number.isInteger(requestedCount) || requestedCount < 1 || requestedCount > 50) {
+                statusMessage.textContent = "Wpisz liczbę całkowitą od 1 do 50";
+                return;
+            }
+
+            for (let index = 0; index < requestedCount; index += 1) {
+                itemNumber += 1;
+                const newItem = document.createElement("li");
+                newItem.textContent = "Nowy element numer " + itemNumber;
+                itemList.appendChild(newItem);
+            }
+
+            statusMessage.textContent = "Dodano " + requestedCount + " elementów do listy";
         }
 
         function modifyLastItem() {
@@ -90,6 +109,8 @@
         createButton.addEventListener("click", createItem);
         modifyButton.addEventListener("click", modifyLastItem);
         removeButton.addEventListener("click", removeLastItem);
+        createMultipleButton.addEventListener("click", createMultipleItems);
+
     </script>
 </body>
 </html>

@@ -24,6 +24,12 @@
             <button id="removeButton">Usuń ostatni</button>
         </div>
 
+        <div class="actions">
+            <label for="itemCount">Liczba elementów</label>
+            <input type="number" id="itemCount" min="1" max="50" value="3">
+            <button id="createMultipleButton">Dodaj wiele elementów</button>
+        </div>
+
         <p id="statusMessage" aria-live="polite">
             Wybierz jedną z operacji
         </p>
@@ -44,6 +50,8 @@
        const createButton = document.getElementById("createButton");
        const modifyButton = document.getElementById("modifyButton");
        const removeButton = document.getElementById("removeButton");
+       const itemCountInput = document.getElementById("itemCountInput");
+       const createMultipleButton = document.getElementById("createMultipleButton");
 
        let itemNumber = 1;
 
@@ -55,6 +63,18 @@
 
         itemList.appendChild(newItem);
         statusMessage.textContent = "Dodano nowy element do listy";
+       }
+
+       function createMultipleItems() {
+        const requestCount = Number(itemCountInput.value);
+
+        if (!Number.isInteger(requestCount) || requestCount < 1 || requestCount > 50) {
+            statusMessage.textContent = "Wpisz liczbę całkowitą od 1 do 50";
+            return;
+        }
+
+        
+
        }
 
        function modifyLastItem() {
