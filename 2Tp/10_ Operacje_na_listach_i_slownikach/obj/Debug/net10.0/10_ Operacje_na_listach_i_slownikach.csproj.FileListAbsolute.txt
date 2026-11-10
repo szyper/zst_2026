@@ -1,0 +1,16 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\bin\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\bin\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.deps.json
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\bin\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.runtimeconfig.json
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\bin\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\bin\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.AssemblyInfoInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.AssemblyInfo.cs
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.sourcelink.json
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\refint\10_ Operacje_na_listach_i_slownikach.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Operacje_na_listach_i_slownikach.genruntimeconfig.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\ref\10_ Operacje_na_listach_i_slownikach.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\10_ Operacje_na_listach_i_slownikach\obj\Debug\net10.0\10_ Oper.47A17265.Up2Date

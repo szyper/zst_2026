@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zmiana elementów HTML za pomocą JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1 id="pageTitle">Zmiana elementów HTML za pomocą JavaScript</h1>
+        <p class="note">Kliknij przyciski i obserwuj, jak JavaScript zmienia treść, atrybuty oraz style elementów</p>
+
+        <p id="message" title="To jest oryginalny tekst">To jest przykładowa treść, którą można zmienić</p>
+        <img id="exampleImage" src="https://placehold.co/600x180/1769aa/ffffff?text=Obraz+przed+zmianą" alt="Niebieski obraz przykładowy" width="100%">
+
+        <div class="actions">
+            <button id="textButton">Zmień treść</button>
+            <button id="attributeButton">Zmień atrybut</button>
+            <button id="styletButton">Zmień styl</button>
+            <button id="resetButton">Przywróć początek</button>
+        </div>
+
+        <h2>Jak to działa?</h2>
+        <ul>
+            <li><code>document.getElementById()</code> wyszukuje element po jego identyfikatorze</li>
+            <li><code>TextContent</code> zmienia tekst elementu</li>
+            <li><code>setAttribute()</code> ustawia atrybut, na przykład <code>title</code> albo <code>src</code></li>
+            <li><code>classList.toggle()</code> włącza lub wyłącza klasę CSS, która zmienia wygląd</li>
+            <li><code>addEventListener()</code> reaguje na kliknięcie przycisku</li>
+        </ul>
+    </main>
+    <script>
+        const messageElement = document.getElementById("message");
+        const exampleImage = document.getElementById("exampleImage");
+        const textButton = document.getElementById("textButton");
+        const attributeButton = document.getElementById("attributeButton");
+        const styletButton = document.getElementById("styletButton");
+        const resetButton = document.getElementById("resetButton");
+
+        function changeText() {
+            messageElement.textContent = "Treść została zmieniona przez JavaScript";
+        }
+
+        function changeAttributes() {
+            messageElement.setAttribute("title", "Atrybut title został zmieniony");
+            exampleImage.setAttribute("src", "https://placehold.co/600x180/df8a00/ffffff?text=Obraz+po+zmianie");
+            exampleImage.setAttribute("alt", "Pomarańczowy obraz po zmianie atrybutów");
+        }
+
+        function changeStyles() {
+            messageElement.classList.toggle("highlight");
+        }
+
+        function resetExample() {
+            messageElement.textContent = "To jest przykładowa treść, którą można zmienić";
+            messageElement.setAttribute("title", "To jest oryginalny tekst");
+            messageElement.classList.remove("highlight");
+            exampleImage.setAttribute("src", "https://placehold.co/600x180/1769aa/ffffff?text=Obraz+przed+zmianą");
+            exampleImage.setAttribute("alt", "Niebieski obraz przykładowy");
+        }
+
+        // łączymy kliknięcia przycisków z odpowiednimi funkcjami
+        textButton.addEventListener("click", changeText);
+        attributeButton.addEventListener("click", changeAttributes);
+        styletButton.addEventListener("click", changeStyles);
+        resetButton.addEventListener("click", resetExample);
+    </script>
+</body>
+</html>

@@ -21,9 +21,10 @@ function validateName() {
         return false;
     }
 
-    // sprawdzamy długość imienia
-    if (name.length < 2) {
-        message.textContent = "Imię musi mieć co najmniej 2 znaki.";
+    const namePattern = /^[a-zA-ZąęćżźńłóĄĘĆŻŹŃŁÓ]{2,}$/;
+
+    if (!namePattern.test(name)) {
+        message.textContent = "❌ Imię musi zawierać minimum 2 litery, bez cyfr i znaków specjalnych";
         message.className = "error";
         field.classList.add("input-error");
         field.classList.remove("input-success");
@@ -37,6 +38,118 @@ function validateName() {
     field.classList.remove("input-error");
     return true;
 }
+
+
+// =================================
+// WALIDACJA nazwiska
+// =================================
+ 
+function validateSurname() {
+    const field = document.getElementById("surname");
+    const message = document.getElementById("surnameError");
+
+    const surname = field.value.trim();
+
+    if (surname === "") {
+        message.textContent = "Podaj nazwisko.";
+        message.className = "error";
+        field.classList.add("input-error");
+        field.classList.remove("input-success");
+        return false;
+    }
+
+    const surnamePattern = /^[a-zA-ZąęćżźńłóĄĘĆŻŹŃŁÓ]{2,}(-[a-zA-ZąęćżźńłóĄĘĆŻŹŃŁÓ]+)*$/;
+
+// * — zero lub więcej powtórzeń
+// ? — zero lub jedno powtórzenie
+// + — jedno lub więcej powtórzeń
+
+    if (!surnamePattern.test(surname)) {
+        message.textContent = "❌ Nazwisko musi zawierać minimum 2 litery, bez cyfr, może zawierać myślnik";
+        message.className = "error";
+        field.classList.add("input-error");
+        field.classList.remove("input-success");
+        return false;
+    }
+
+    message.textContent = "✅ Nazwisko jest poprawne.";
+    message.className = "success";
+    field.classList.add("input-success");
+    field.classList.remove("input-error");
+    return true;
+}
+
+
+// =================================
+// WALIDACJA e-mail
+// =================================
+ 
+function validateEmail() {
+    const field = document.getElementById("email");
+    const message = document.getElementById("emailError");
+
+    const email = field.value.trim();
+
+    if (email === "") {
+        message.textContent = "Podaj adres email.";
+        message.className = "error";
+        field.classList.add("input-error");
+        field.classList.remove("input-success");
+        return false;
+    }
+
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+    if (!emailPattern.test(email)) {
+        message.textContent = "❌ Email musi być adresem poczty elektronicznej";
+        message.className = "error";
+        field.classList.add("input-error");
+        field.classList.remove("input-success");
+        return false;
+    }
+
+    message.textContent = "✅ Nazwisko jest poprawne.";
+    message.className = "success";
+    field.classList.add("input-success");
+    field.classList.remove("input-error");
+    return true;
+}
+
+
+// =================================
+// WALIDACJA WIEKU
+// =================================
+ 
+function validateAge() {
+    const field = document.getElementById("age");
+    const message = document.getElementById("ageError");
+
+    const ageText = field.value.trim();
+    const age = Number(ageText);
+
+    if (age === "") {
+        message.textContent = "Podaj wiek.";
+        message.className = "error";
+        field.classList.add("input-error");
+        field.classList.remove("input-success");
+        return false;
+    }
+
+    if (!Number.isInteger(age) || age < 1 || age > 150) {
+        message.textContent = "❌ Email musi być adresem poczty elektronicznej";
+        message.className = "error";
+        field.classList.add("input-error");
+        field.classList.remove("input-success");
+        return false;
+    }
+
+    message.textContent = "✅ Wiek jest poprawny.";
+    message.className = "success";
+    field.classList.add("input-success");
+    field.classList.remove("input-error");
+    return true;
+}
+
 
 
 // =================================

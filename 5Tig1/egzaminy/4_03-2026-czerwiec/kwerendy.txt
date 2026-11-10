@@ -1,0 +1,16 @@
+kw1: SELECT idObiekt, plik, nazwa FROM `obiekty` WHERE panstwo="Islandia";
+
+kw2: SELECT obiekty.idRodzaj, plik, nazwa, nazwaCechy, wartoscCechy, opis, rodzaje.rodzaj FROM `obiekty` INNER JOIN rodzaje ON obiekty.idRodzaj=rodzaje.idRodzaj WHERE obiekty.idRodzaj = 46;
+
+kw3: SELECT nazwa FROM `obiekty` WHERE idRodzaj=10;
+
+kw4: SELECT COUNT(obiekty.idRodzaj) AS 'Liczba obiektów', rodzaj FROM `obiekty` INNER JOIN rodzaje ON obiekty.idRodzaj = rodzaje.idRodzaj GROUP BY obiekty.idRodzaj;
+
+
+
+dodatkowe zapytania:
+SELECT * FROM `turysci` ORDER BY punkty DESC LIMIT 3;
+
+SELECT obiekty.panstwo, kontynenty.nazwa FROM `obiekty` INNER JOIN kontynenty ON obiekty.idKontynent=kontynenty.idKontynent;
+
+SELECT COUNT(obiekty.panstwo) AS "Ilość państw", kontynenty.nazwa FROM `obiekty` INNER JOIN kontynenty ON obiekty.idKontynent=kontynenty.idKontynent GROUP BY obiekty.idKontynent;

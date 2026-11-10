@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zmiana elementów HTML za pomocą JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Tworzenie, usuwanie i modyfikowanie elementów DOM</h1>
+        <p class="note">
+            DOM to struktura dokumentu HTML, którą JavaScript może odczytywać i zmieniać
+        </p>
+
+        <h2>Lista zadań</h2>
+        <ul id="itemList">
+            <li>Przykładowy element listy</li>
+        </ul>
+
+        <div class="actions">
+            <button id="createButton">Dodaj element</button>
+            <button id="modifyButton">Modyfikuj ostatni</button>
+            <button id="removeButton">Usuń ostatni</button>
+        </div>
+
+        <p id="statusMessage" aria-live="polite">
+            Wybierz jedną z operacji
+        </p>
+
+        <h2>Użyte metody DOM</h2>
+    <ul>
+      <li><code>document.createElement()</code> tworzy nowy element HTML.</li>
+      <li><code>textContent</code> ustawia tekst elementu.</li>
+      <li><code>appendChild()</code> dodaje element jako dziecko innego elementu.</li>
+      <li><code>classList.toggle()</code> włącza lub wyłącza klasę CSS.</li>
+      <li><code>remove()</code> usuwa element z dokumentu.</li>
+      <li><code>children</code> pozwala odczytać elementy potomne, np. pozycję ostatniego elementu.</li>
+    </ul>
+    </main>
+    <script>
+       const itemList = document.getElementById("itemList");
+       const statusMessage = document.getElementById("statusMessage");
+       const createButton = document.getElementById("createButton");
+       const modifyButton = document.getElementById("modifyButton");
+       const removeButton = document.getElementById("removeButton");
+
+       let itemNumber = 1;
+
+       function createItem() {
+        itemNumber += 1;
+
+        const newItem = document.createElement("li");
+        newItem.textContent = "Nowy element numer " + itemNumber;
+
+        itemList.appendChild(newItem);
+        statusMessage.textContent = "Dodano nowy element do listy";
+       }
+
+       function modifyLastItem() {
+        const lastItem = itemList.children[itemList.children.length -1];
+
+        if (lastItem) {
+            lastItem.classList.toggle("highlight");
+            statusMessage.textContent = "Zmieniono wygląd ostatniego elementu";
+        } else {
+            statusMessage.textContent = "Lista jest pusta. Najpierw dodaj element";
+        }
+       }
+
+       function removeLastItem(){
+        const lastItem = itemList.children[itemList.children.length -1];
+
+        if (lastItem) {
+            lastItem.remove();
+            statusMessage.textContent = "Usunięto ostatni element z listy";
+        } else {
+            statusMessage.textContent = "Lista jest pusta";
+        }
+       }
+
+       createButton.addEventListener("click", createItem);
+       modifyButton.addEventListener("click", modifyLastItem);
+       removeButton.addEventListener("click", removeLastItem);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "10_ Operacje_na_listach_i_slownikach/1.0.0": {
+        "runtime": {
+          "10_ Operacje_na_listach_i_slownikach.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "10_ Operacje_na_listach_i_slownikach/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

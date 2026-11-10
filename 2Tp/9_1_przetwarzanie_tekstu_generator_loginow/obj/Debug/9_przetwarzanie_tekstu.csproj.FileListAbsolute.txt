@@ -1,0 +1,7 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\9_przetwarzanie_tekstu\bin\Debug\9_przetwarzanie_tekstu.exe.config
+C:\xampp\htdocs\git\zst_2026\2Tp\9_przetwarzanie_tekstu\bin\Debug\9_przetwarzanie_tekstu.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\9_przetwarzanie_tekstu\bin\Debug\9_przetwarzanie_tekstu.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\9_przetwarzanie_tekstu\obj\Debug\9_przetwarzanie_tekstu.csproj.AssemblyReference.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\9_przetwarzanie_tekstu\obj\Debug\9_przetwarzanie_tekstu.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\9_przetwarzanie_tekstu\obj\Debug\9_przetwarzanie_tekstu.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\9_przetwarzanie_tekstu\obj\Debug\9_przetwarzanie_tekstu.pdb
