@@ -1,0 +1,12 @@
+Zadanie: Dziennik awarii na stacji kosmicznej
+Napisz drugi program konsolowy w C#, który zapisuje i odczytuje raporty z awarii.
+1. Utwórz plik raporty.txt w folderze programu.
+2. Sprawdź, czy plik już istnieje:
+   - jeśli nie, poinformuj o tym użytkownika i utwórz plik;
+   - jeśli tak, poinformuj użytkownika, że nowe raporty zostaną dopisane.
+3. Pozwalaj wpisywać kolejne raporty, na przykład: Awaria systemu podtrzymywania życia.
+4. Zakończ wpisywanie, gdy użytkownik poda koniec.
+5. Otwórz plik i wyświetl wszystkie zapisane raporty, numerując je od 1.
+6. Na końcu podaj, ile raportów znajduje się w pliku.
+7. Sprawdź działanie programu przy pierwszym uruchomieniu i przy kolejnym — zapisane wcześniej raporty powinny pozostać w pliku.
+Podpowiedź: użyj File.Exists, File.CreateText, StreamWriter, StreamReader, ReadLine() oraz zapisu w trybie dopisywania.

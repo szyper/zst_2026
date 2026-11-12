@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listy wielopoziomowe i listy definicji. Atrybuty list i znaczniki dl, dt, dd</title>
+</head>
+<body>
+    <h1>Listy w HTML</h1>
+
+    <section>
+        <h2>Lista wielopoziomowa</h2>
+        <p>Listę zagnieżdżoną umieszcza się wewnątrz elementu</p>
+
+        <ol>
+            <li>Przygotowanie
+                <ul>
+                    <li>Wybierz temat</li>
+                    <li>Zbierz materiały</li>
+                </ul>
+            </li>
+            <li>Realizacja
+                <ol type="a">
+                    <li>Napisz treść</li>
+                    <li>Sprawdź wynik</li>
+                </ol>
+            </li>
+            <li>Publikacja</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Atrybuty list uporządkowanych</h2>
+        <ul>
+            <li><code>type</code> - rodzaj numeracji: <code>1</code>, <code>A</code>, <code>a</code></li>
+            <li><code>start</code> - numer początkowy listy</li>
+            <li><code>reversed</code> - numeruje elementy malejąco</li>
+            <li><code>value</code> na elemencie <code>&lt;li&gt;</code> - ustawia numer konkretnego elementu</li>
+        </ul>
+
+        <h3>Przykłady</h3>
+        <ol type="I" start="3">
+            <li>Numeracja rzymska zaczynająca sięod III</li>
+            <li value="7">Ten element ma numer VII</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Lista definicji</h2>
+        <p>
+            <code>&lt;dl&gt;</code> tworzy listę opisową,
+            <code>&lt;dt&gt;</code> oznacza opisywane hasło,
+            <code>&lt;dd&gt;</code> opis hasła
+        </p>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Język znaczników służący do opisywania struktury strony internetowej</dd>
+
+            <dt>CSS</dt>
+            <dd>Język arkuszy stylów używany do określenia wyglądu strony</dd>
+            <dd>Może także kontrolować ostępy, kolory i typografię</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Język programowania, który pozwala dodawać stronie interaktywność</dd>
+        </dl>
+        <!-- 
+            <dl> (description list)
+            <dt> (description term)
+            <dd> (description details)
+        -->
+    </section>
+</body>
+</html>
