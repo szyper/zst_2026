@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tworzenie odnośników. Znacznik a, atrybut href oraz adresy względne i bezwzględne.</title>
+</head>
+<body>
+    <header>
+        <p>POdstawy HTML - odnośniki</p>
+        <h1>Tworzenie odnośników</h1>
+        <p>
+            Odnośniki pozwalają przechodzić do innych stron, plików lub wybranych miejsc na tej samej stronie. Tworzymy je znacznikiem <code>&lt;a&gt;</code>, a cel wskazujemy atrybutem <code>href</code>
+        </p>
+
+        <pre><code>&lt;a href="adres"&gt;tekst odnośnika&lt;/a&gt;</code></pre>
+    </header>
+
+    <section>
+        <p>
+            Tekst umieszczony między znacznikami otwierającym i zamykającym jest klikalny. Atrybut <code>href</code> (ang. <em>hypertext reference</em>)
+        </p>
+
+        <a href="https://zstpleszew.edupage.org/">ZST Pleszew</a><br>
+        <a href="https://zstpleszew.edupage.org/">ZST Pleszew statut</a><br>
+
+        <h3>Adresy bezwzględne i względne</h3>
+        <h6>Adres bezwzględny</h6>
+        <a href="https://zstpleszew.edupage.org/">Adres bezwzględny</a>
+        <a href="kontakt.html">Adres względny</a>
+        <a href="../kontakt.html">Adres względny - folder wyżej</a>
+        <a href="/kontakt.html">Od początku witryny - śceiżka zaczyna się od katalogu głównego serwisu</a>
+
+    </section>
+</body>
+</html>

@@ -1,0 +1,16 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\bin\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\bin\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.deps.json
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\bin\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.runtimeconfig.json
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\bin\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\bin\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.AssemblyInfoInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.AssemblyInfo.cs
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.sourcelink.json
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\refint\11_programowanie obiektowe – klasy_obiekty_pola i metody.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_programowanie obiektowe – klasy_obiekty_pola i metody.genruntimeconfig.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\ref\11_programowanie obiektowe – klasy_obiekty_pola i metody.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\11_programowanie obiektowe – klasy_obiekty_pola i metody\obj\Debug\net10.0\11_progr.B428EEBB.Up2Date

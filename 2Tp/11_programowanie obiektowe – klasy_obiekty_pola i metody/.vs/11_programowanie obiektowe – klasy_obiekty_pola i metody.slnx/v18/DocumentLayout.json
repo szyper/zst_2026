@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\git\\zst_2026\\2Tp\\11_programowanie obiektowe \u2013 klasy_obiekty_pola i metody\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1619E0B3-EDB0-4730-A614-108C37FDCE9A}|11_programowanie obiektowe \u2013 klasy_obiekty_pola i metody.csproj|c:\\xampp\\htdocs\\git\\zst_2026\\2tp\\11_programowanie obiektowe \u2013 klasy_obiekty_pola i metody\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1619E0B3-EDB0-4730-A614-108C37FDCE9A}|11_programowanie obiektowe \u2013 klasy_obiekty_pola i metody.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\git\\zst_2026\\2Tp\\11_programowanie obiektowe \u2013 klasy_obiekty_pola i metody\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\git\\zst_2026\\2Tp\\11_programowanie obiektowe \u2013 klasy_obiekty_pola i metody\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T09:16:52.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
