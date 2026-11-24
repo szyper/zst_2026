@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h1, 
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.agreement input {
+    width: auto;
+}
+
+.agreement label {
+    margin: 0;
+    font-weight: normal;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2674d9;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #185bb0;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #999;
+    text-align: left;
+    word-break: break-word;
+}
+
+th {
+    background-color: #ddd;
+}
