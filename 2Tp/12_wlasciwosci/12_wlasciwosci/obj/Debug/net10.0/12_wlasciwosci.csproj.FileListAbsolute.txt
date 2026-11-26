@@ -1,0 +1,15 @@
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\bin\Debug\net10.0\12_wlasciwosci.exe
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\bin\Debug\net10.0\12_wlasciwosci.deps.json
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\bin\Debug\net10.0\12_wlasciwosci.runtimeconfig.json
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\bin\Debug\net10.0\12_wlasciwosci.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\bin\Debug\net10.0\12_wlasciwosci.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.AssemblyInfoInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.AssemblyInfo.cs
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.sourcelink.json
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\refint\12_wlasciwosci.dll
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.pdb
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\12_wlasciwosci.genruntimeconfig.cache
+C:\xampp\htdocs\git\zst_2026\2Tp\12_wlasciwosci\12_wlasciwosci\obj\Debug\net10.0\ref\12_wlasciwosci.dll
